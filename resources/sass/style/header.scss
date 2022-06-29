@@ -1,0 +1,34 @@
+header{
+	background-color: $color_destaque;
+	padding: 10px 0;
+
+	.content{
+	  display: inline-flex;
+	  flex-wrap: wrap;
+	  align-items: center;
+	  justify-content: center;
+
+	  @include desktop{
+
+	    justify-content: space-between;
+	 }
+	 .logo{
+	width: 100%;
+	text-align: center;
+	}
+	 }
+	 .login{
+	     form{
+	        input{
+	            width: 100%;
+	            margin: 0 0 15px 0;
+	        }
+
+	        input[type="submit"]{
+	           margin:0 auto;
+	           width: 100%;
+	        }
+	     }
+	  }
+	}
+}
